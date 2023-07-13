@@ -6,7 +6,7 @@ diretorio_log="/mnt/efs/Wesley_Sergio"
 
 arquivo_log="log-a.txt"
 veririficar_apache () {
-	systemct1 is-active --quiet httpd
+	systemctl is-active --quiet httpd
 	return $?
 }
 
