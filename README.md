@@ -1,4 +1,5 @@
-- com o VIM "nome do arquivo" e execute os seguntes comandos
+- com o comando VIM "nome do arquivo" e execute os seguntes comandos
+
 #!/bin/bash
 
 diretorio_log="/mnt/efs/Wesley_Sergio"
@@ -17,5 +18,6 @@ else
 	status="offline"
 	mensagem="o serviço está offline."
 fi
+
 - logo em seguida saia o modo edição com o botão ESC e digite :wq para salvar e sair
 - utiize o comando chmod para habilitar as permissões que o script precisar, e use ./"nome do arquivo"
